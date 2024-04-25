@@ -16,6 +16,7 @@ import com.example.srodenas.example_with_catalogs.ui.views.activities.fragments.
 class LoginActivity : AppCompatActivity() {
     lateinit var binding: LoginactivityBinding
     val userViewModel: UserViewModel by viewModels()  //viewModel del Usuario.
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = LoginactivityBinding.inflate(layoutInflater)
